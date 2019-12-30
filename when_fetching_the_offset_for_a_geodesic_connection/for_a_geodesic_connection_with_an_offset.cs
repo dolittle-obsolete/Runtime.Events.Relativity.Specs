@@ -13,6 +13,7 @@ namespace Dolittle.Runtime.Events.Relativity.Specs.when_fetching_the_offset_for_
         static ulong result;
         static EventHorizonKey key;
         static ulong last_version;
+
         Establish context = () =>
         {
             key = new EventHorizonKey(Guid.NewGuid(), Guid.NewGuid());
